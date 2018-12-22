@@ -1,0 +1,87 @@
+body{
+    font-size: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: rgb(160, 205, 241);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 70%;
+    margin: 0 auto;
+}
+
+#title{
+    text-align: center;
+}
+
+.container{
+    background: #fff;
+    border-radius: 10px;
+    padding: 1.6em;
+}
+
+#description{
+    text-align: center;
+}
+
+
+.form input,
+.form select,
+.form textarea{
+    width: 100%;
+    padding: 7px;
+    border: 1 px solid#ccc;
+}
+
+
+.form input[type="radio"],
+.form input[type="checkbox"],
+.form input[type="submit"]{
+    width: auto;
+}
+
+.form__group{
+    margin-bottom: 1.6em;
+    display: flex;
+}
+
+.form__group > label{
+    text-align: right;
+    width: 48%;
+    display: block;
+    margin-right: 4%;
+}
+
+.form__group > div,
+.form__group > select,
+.form__group > textarea,
+.form__group > input {
+    width: 48%;
+    display: block;
+}
+
+.form__sub-group > label{
+    display: block;
+    width: 48%;
+}
+
+.form__sub-group{
+    display: block;
+}
+
+.form__submit-group{
+    text-align: center;
+
+}
+
+.btn{
+    background-color: rgb(160, 205, 241);
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+}
